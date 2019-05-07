@@ -2,7 +2,7 @@
 
 const mongoose = require('mongoose');
 
-const Restaurant = require('../models/restaurants');
+const Restaurant = require('../models/restaurant');
 
 mongoose.connect('mongodb://localhost/mapbox-example', {
   keepAlive: true,
